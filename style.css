@@ -43,7 +43,7 @@ body{
     display: center;
     align-items: center;
     justify-content: space-between;
-    padding: 2.5srem 9%;
+    padding: 1.5rem 5%;
  
 }
 
@@ -51,6 +51,7 @@ body{
     color: antiquewhite;
     font-weight:bolder ;
     font-size: 2.5rem;
+    display: center;
 }
 
 .header .logo span{
@@ -58,7 +59,7 @@ body{
 }
 
 .header .navbar a{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fff;
     margin-left: 2rem;
     float: right ;
@@ -107,8 +108,9 @@ body{
 }
 
 .btn:hover{
-    background-color: beige;
-    color: rosybrown;
+    background-color: rgb(185, 185, 31);
+    color: antiquewhite;
+    font-size: 2rem;
 }
 
 .home .home-slider .swiper-slide{
@@ -239,7 +241,7 @@ body{
 }
 
 .gallery .box-container .box :hover img{
-    transform: scale(1.1);
+    transform: scale(0.25);
     filter:grayscale()
 }
 
@@ -298,13 +300,13 @@ body {
 }
 
 .price h1.heading {
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: #fff;
     margin-bottom: 40px;
 }
 
 .price h1.heading span {
-    color: #ff6b6b;
+    color: #3867d6;
 }
 
 /* Box container */
@@ -316,24 +318,24 @@ body {
 }
 
 .box {
-    background-color: #242b42;
+    background-color: #181c1d;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(211, 211, 211, 1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     max-width: 280px;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.35);
+    box-shadow: 0 6px 20px rgba(0, 0, 255, 1);
 }
 
 .box h3.title {
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 3rem;
+    color: #ce8383;
     margin-bottom: 10px;
 }
 
@@ -344,22 +346,22 @@ body {
 }
 
 .box ul {
-    list-style: none;
+    list-style:circle;
     padding: 0;
     margin: 0 0 20px 0;
 }
 
 .box ul li {
-    font-size: 1rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    color: #bbb;
+    color: #828d68;
 }
 
 .box ul li i {
-    color: #ff6b6b;
-    margin-right: 10px;
+    color: #956666;
+    margin-right: 15px;
 }
 
 /* Button styles */
@@ -410,7 +412,9 @@ body {
 }
 
 .testimonial-col:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
+    box-shadow: 0 6px 20px rgba(0, 0, 255, 1);
+
 }
 
 .testimonial-col p {
@@ -450,9 +454,13 @@ body {
 }
 
 .contact-title p {
-    color: #ff6b6b;
-    font-size: 1.2rem;
+    color: #e65e5e;
+    font-size: 5rem;
     letter-spacing: 2px;
+}
+
+.contact-title .p span{
+    color: #3867d6;
 }
 
 .contact-title h1 {
@@ -489,7 +497,7 @@ body {
     border: none;
     border-radius: 5px;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.4rem;
     outline: none;
 }
 
@@ -503,7 +511,7 @@ body {
     left: 15px;
     transform: translateY(-50%);
     color: #bbb;
-    font-size: 1rem;
+    font-size: 3rem;
     pointer-events: none;
     transition: 0.3s ease;
 }
@@ -513,7 +521,7 @@ body {
 .input-box input:not(:placeholder-shown) + label,
 .input-box textarea:not(:placeholder-shown) + label {
     top: -10px;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     color: #ff6b6b;
 }
 
@@ -524,14 +532,15 @@ body {
     color: #fff;
     border: none;
     border-radius: 30px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 20px;
 }
 
 .btn:hover {
-    background-color: #e65e5e;
+    background-color: #bbb;
+    color: #3867d6;
 }
 
 /* Responsive Design */
@@ -582,7 +591,7 @@ body {
 }
 
 .footer-col p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     color: #ddd; /* Light gray for paragraph text */
 }
 
@@ -593,6 +602,7 @@ body {
 
 .footer-col ul li {
     margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 .footer-col a {
@@ -612,7 +622,7 @@ body {
 
 .social-links a {
     color: #fff;
-    font-size: 1.2rem; /* Icon size */
+    font-size: 2rem; /* Icon size */
     transition: color 0.3s;
 }
 
@@ -623,7 +633,7 @@ body {
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     color: #ddd; /* Light gray for copyright text */
 }
 
